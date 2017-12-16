@@ -1,0 +1,72 @@
+<!-- projects.ejs
+    Jeffrey Li
+    https://comp308-assignment2-jeffreyli.herokuapp.com/
+    Shows what games I have made throughout school -->
+<% include ../partials/header.ejs %>
+
+<!-- An affix that shows user where they are on the page -->
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+     <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked" data-spy="affix"data-offset-top="205">
+        <li><a href="#section1">Jim's Revenge</a></li>
+        <li><a href="#section2">Cave Adventure</a></li>
+        <li><a href="#section3">Knight</a></li>
+        <li><a href="#section4">Archer</a></li>
+        </ul>
+    </nav>
+   <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+    <h1 style="text-align: center">My <%= title %></h1>
+    <br>
+    <br>
+    <div id="section1">
+    <h3> Jim's Revenge </h3>
+    <img src="Assets/images/dnd.png" width="400" height="300">
+    <img src="Assets/images/dndvr.png" width="400" height="300">
+    
+    <p>You and your comrades travel room by room filled with obstacles and enemies
+       to reach and defeat the boss, except one of you will be in virtual reality 
+       creating the path for others! Communicate and set the best path to defeat the boss!</p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+ 
+    <div id="section2">
+    <h3> Cave Adventure </h3>
+    <img src="Assets/images/cave.png" width="400" height="300">
+    <p> You play as Joe in this 2D platformer in search of the treasure deep within.
+      You will have to kill enemies and pass through challenging obstacles
+      to reach the end of the cave where the treasure lies.</p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="section3">
+    <h3> Knight </h3>
+    <img src="Assets/images/knight.png" width="400" height="300">
+    <p>Slay enemies and find the crystals to open the portal to your freedom!
+    You might find some hidden treasures along the way!</p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="section4">
+    <h3> Archer </h3>
+    <img src="Assets/images/archer.png" width="400" height="300">
+    <p>A 2D side scroller where endless enemies come to attack you. Try your best
+    to survive the onslaught!</p>
+    </div>
+    </div>
+    </div>
+</body>
+
+   <% include ../partials/footer.ejs %>

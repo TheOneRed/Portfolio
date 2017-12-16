@@ -1,0 +1,25 @@
+/* Custom CSS goes here */
+body { padding-bottom: 70px;
+       background-color: black;
+       color: white;}
+
+btn {background-color: darkred; 
+     color:white;}
+
+/* background color of navbar */
+.navbar-default-bg {
+    background-color: darkred;}
+
+/* color when tab is selected */
+.navbar-default-bg .navbar-nav > .active > a, 
+.navbar-default-bg .navbar-nav > .active > a:hover, 
+.navbar-default-bg .navbar-nav > .active > a:focus {
+color: black;}
+
+/* color of icons on navbar */
+.navbar-default-bg .navbar-brand{
+color: white;}
+
+/* color of text on navbar */
+.navbar-default-bg .navbar-nav > li > a {
+color: white;}

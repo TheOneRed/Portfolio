@@ -1,0 +1,60 @@
+<!-- Home PAGE
+    Jeffrey Li
+    https://comp308-assignment2-jeffreyli.herokuapp.com/
+    Links to other pages -->
+<% include ../partials/header.ejs %>
+<!-- CONTENT PAGE FOR HOME -->
+    <div class="container">
+      <div class="row">
+        <div style="text-align: center">
+    <h1><%= title %></h1>
+    <p>Welcome to my Portfolio</p>
+        </div>
+    </div>
+    </div>
+
+    <!-- Making pics into thunbnails or organization -->
+   <div class="container">
+  <div class="row">
+    <div class="col-md-offset-3 col-md-6">
+      <div class="thumbnail">
+        <a href="/about">
+          <img src="Assets/images/me.png">
+          <div class="caption">
+            <h2 style="text-align: center">About Me</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/projects">
+          <img src="Assets/images/Unity.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <h2 style="text-align: center">Projects</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/services">
+          <img src="Assets/images/service.png">
+          <div class="caption">
+            <h2 style="text-align: center">Services</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/contact">
+          <img src="Assets/images/contact.jpg">
+          <div class="caption">
+            <h2 style="text-align: center">Contact Me</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+   <% include ../partials/footer.ejs %>
